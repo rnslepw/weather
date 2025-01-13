@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: lightcoral;
+  font-family: "Titillium Web", serif;
+}
+
+.container {
+  min-width: 66%;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  border-radius: 1rem;
+}
+
+.address {
+  font-size: 3rem;
+}
+
+.temp {
+  font-size: 1.5rem;
+}
+
+.conditions {
+  display: flex;
+  width: 66%;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  height: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+input,
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: inherit;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
